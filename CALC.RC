@@ -1,0 +1,4 @@
+#include "windows.h"
+#include "calc.h"
+
+AppIcon ICON calc.ico
