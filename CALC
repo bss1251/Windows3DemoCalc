@@ -1,0 +1,14 @@
+all: calc.exe
+
+calc.obj: calc.c calc.h
+    cl -c -AS -Gsw -Oas -Zpe calc.c
+
+calc.res: calc.rc calc.h 
+    rc -r calc.rc
+
+calc.exe: calc.obj calc.def
+    link /NOD calc,,,libw slibcew,calc.def
+    rc calc.res
+
+calc.exe: calc.res
+    rc calc.res
