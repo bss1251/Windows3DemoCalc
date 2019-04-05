@@ -5,7 +5,7 @@ This program is a very basic, fixed-ish point, RPN calculator that was developed
 
 The base Windows APIs used in this code are still very similar today, and this project would probrably compile under Windows 10 with minimal (if any) changes.
 
-## Building for Windows 3 using Microsoft C 6
+## Building for Windows 3 using Microsoft C 6 and Windows 3 SDK
 
 * Copy all files into the same directory
 * Compile the resource file `rc -r calc.rc`
