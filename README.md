@@ -7,6 +7,6 @@ The base Windows APIs used in this code are still very similar today, and this p
 
 ## Building for Windows 3 using Microsoft C 6
 
-*Copy all files into the same directory
-*Compile the resource file `rc -r calc.rc`
-*Build the project using the included makefile `nmake calc`
+* Copy all files into the same directory
+* Compile the resource file `rc -r calc.rc`
+* Build the project using the included makefile `nmake calc`
